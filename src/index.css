@@ -1,0 +1,40 @@
+@font-face{
+    font-family: poppins;
+    src :url("../src/assets/font/poppins/Poppins-Regular.ttf");
+}
+@font-face{
+    font-family: poppins-bold;
+    src :url("../src/assets/font/poppins/Poppins-Bold.ttf");
+}
+@font-face{
+    font-family: poppins-thin;
+    src :url("../src/assets/font/poppins/Poppins-Thin.ttf");
+}
+@font-face{
+    font-family: poppins-medium;
+    src :url("../src/assets/font/poppins/Poppins-Medium.ttf");
+}
+@font-face{
+    font-family: poppins-semibold;
+    src :url("../src/assets/font/poppins/Poppins-SemiBold.ttf");
+}
+@font-face{
+    font-family: montserrat;
+    src :url("../src/assets/font/montserrat/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: montserrat-bold;
+    src :url("../src/assets/font/montserrat/Montserrat-Bold.ttf");
+}
+
+@import 'tailwindcss';
+
+@theme {
+    --font-poppins: poppins;
+    --font-poppins-bold: poppins-bold;
+    --font-poppins-thin: poppins-thin;
+    --font-poppins-medium: poppins-medium;
+    --font-poppins-semibold: poppins-semibold;
+    --font-montserrat: montserrat;
+    --font-montserrat-bold: montserrat-bold;   
+}
