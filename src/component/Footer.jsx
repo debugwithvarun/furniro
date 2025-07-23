@@ -29,7 +29,7 @@ const Footer = ({ lighttext ,darktext}) => {
             </div>
             <div className='flex flex-col gap-6'>
                 <h1 className='font-poppins text-xl' style={{color:lighttext}}>Newsletter</h1>
-                <ul className='list-none flex gap-4'>
+                <ul className='list-none flex gap-4 max-md:flex-col max-md:items-start'>
                     <input type="text" name="" id="" className='border-0 border-b-2' placeholder='Enter Your Email Address' style={{borderColor:darktext,color:lighttext}}/>
                     <button className=' px-2 py-2 border-0 border-b-2' style={{borderColor:darktext,color:darktext}}>Subscribe</button>
                 </ul>
